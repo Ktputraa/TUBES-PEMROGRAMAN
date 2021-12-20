@@ -1,0 +1,140 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:65:5"
+
+[InputComboValues]
+Class="Function"
+Prototype="void InputComboValues(int panel, int control);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:100:6"
+
+[panelCB]
+Class="Function"
+Prototype="int panelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:113:17"
+
+[PANEL2]
+Class="Function"
+Prototype="int PANEL2(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:121:17"
+
+[PanelDK]
+Class="Function"
+Prototype="int PanelDK(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:129:17"
+
+[PanelRs]
+Class="Function"
+Prototype="int PanelRs(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:137:17"
+
+[PanelPb]
+Class="Function"
+Prototype="int PanelPb(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:145:17"
+
+[BtnLogin]
+Class="Function"
+Prototype="int BtnLogin(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:159:17"
+
+[cancel]
+Class="Function"
+Prototype="int cancel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:190:17"
+
+[picture]
+Class="Function"
+Prototype="int picture(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:209:17"
+
+[picture1]
+Class="Function"
+Prototype="int picture1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:215:17"
+
+[picture2]
+Class="Function"
+Prototype="int picture2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:221:17"
+
+[picture3]
+Class="Function"
+Prototype="int picture3(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:227:17"
+
+[picture_reservasi]
+Class="Function"
+Prototype="int picture_reservasi(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:233:17"
+
+[BtnDatakamar]
+Class="Function"
+Prototype="int BtnDatakamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:246:17"
+
+[BtnReservasi]
+Class="Function"
+Prototype="int BtnReservasi(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:262:17"
+
+[BtnPembayaran]
+Class="Function"
+Prototype="int BtnPembayaran(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:276:17"
+
+[BtnKeluar]
+Class="Function"
+Prototype="int BtnKeluar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:290:17"
+
+[BTNTambah]
+Class="Function"
+Prototype="int BTNTambah(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:310:17"
+
+[ComboJenisKamar]
+Class="Function"
+Prototype="int ComboJenisKamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:344:17"
+
+[BTNBack]
+Class="Function"
+Prototype="int BTNBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:380:17"
+
+[BtnAdd]
+Class="Function"
+Prototype="int BtnAdd(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:402:17"
+
+[BtnHitung]
+Class="Function"
+Prototype="int BtnHitung(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:446:17"
+
+[BtnKembali]
+Class="Function"
+Prototype="int BtnKembali(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:469:17"
+
+[combo]
+Class="Function"
+Prototype="int combo(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:489:17"
+
+[print]
+Class="Function"
+Prototype="int print(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:537:17"
+
+[cari]
+Class="Function"
+Prototype="int cari(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:557:17"
+
+[kembali]
+Class="Function"
+Prototype="int kembali(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\LAB WINDOWS 3\LAB WINDOWS 3\Tugas FrontOffice_LabWindows 1.0\Front Office 0.1.c:598:17"
+
