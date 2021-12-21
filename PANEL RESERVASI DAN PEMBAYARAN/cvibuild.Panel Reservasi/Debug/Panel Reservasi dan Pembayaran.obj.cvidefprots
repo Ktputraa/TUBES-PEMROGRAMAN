@@ -1,0 +1,65 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:32:5"
+
+[InputComboValues]
+Class="Function"
+Prototype="void InputComboValues(int panel, int control);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:60:6"
+
+[panel_rs]
+Class="Function"
+Prototype="int panel_rs(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:74:17"
+
+[panel_pb]
+Class="Function"
+Prototype="int panel_pb(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:82:17"
+
+[picture_reservasi]
+Class="Function"
+Prototype="int picture_reservasi(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:95:17"
+
+[picture_pembayaran]
+Class="Function"
+Prototype="int picture_pembayaran(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:100:17"
+
+[Tombol_Tmbh]
+Class="Function"
+Prototype="int Tombol_Tmbh(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:113:17"
+
+[Tombol_Hitung]
+Class="Function"
+Prototype="int Tombol_Hitung(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:158:17"
+
+[Tombol_Kembali]
+Class="Function"
+Prototype="int Tombol_Kembali(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:181:17"
+
+[combo]
+Class="Function"
+Prototype="int combo(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:201:17"
+
+[Tombol_Print]
+Class="Function"
+Prototype="int Tombol_Print(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:246:17"
+
+[Tombol_Klik]
+Class="Function"
+Prototype="int Tombol_Klik(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:266:17"
+
+[Kembali]
+Class="Function"
+Prototype="int Kembali(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\PANEL RESERVASI DAN PEMBAYARAN\Panel Reservasi dan Pembayaran.c:307:17"
+
