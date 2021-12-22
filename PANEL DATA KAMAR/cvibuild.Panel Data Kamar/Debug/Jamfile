@@ -1,5 +1,6 @@
 CCFLAGS = -g ;
-HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\word"
+HDRS = 	"c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\Reservasi Villa"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\word"
 	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\excel"
 	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl"
 	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl\\custsupp"
@@ -28,15 +29,15 @@ HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activ
 	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
 	;
 include Jamfile_instr ;
-LOCATE on "Panel Data Kamar.c" = "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR" ;
-Object "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj" : "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\Panel Data Kamar.c" ;
-FILENUM on "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj" = 1 ;
-DEFPROTS on "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj" = "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj.cvidefprots" ;
-OUTFILE on "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj" = "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj.out" ;
-PrjObjects += "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj" ;
-Object "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\resources.res" : "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\resources.in.rc" ;
-Depends "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\resources.res" : "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\manifest.xml" ;
-MainFromObjects "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.exe" : $(PrjObjects) $(InstrObjects) ;
-Depends "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.exe" : "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\link_options.txt" ;
-Depends "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.exe" : "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\resources.res" ;
-Depends all : "c:\\Users\\hp\\Documents\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.exe" ;
+LOCATE on "Panel Data Kamar.c" = "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR" ;
+Object "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj" : "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\Panel Data Kamar.c" ;
+FILENUM on "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj" = 1 ;
+DEFPROTS on "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj" = "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj" = "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj.out" ;
+PrjObjects += "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.obj" ;
+Object "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\resources.res" : "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\resources.in.rc" ;
+Depends "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\resources.res" : "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\manifest.xml" ;
+MainFromObjects "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.exe" : "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.exe" : "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\ASUS\\Documents\\TUGAS ANANDA KRISNA\\TUGAS BESAR PEMROGRAMAN\\RESERVASI MEMPHIS VILLA (FINAL)\\PANEL DATA KAMAR\\cvibuild.Panel Data Kamar\\Debug\\Panel Data Kamar.exe" ;

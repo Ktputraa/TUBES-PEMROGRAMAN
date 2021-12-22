@@ -1,0 +1,50 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\ASUS\Documents\TUGAS ANANDA KRISNA\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DATA KAMAR\Panel Data Kamar.c:32:5"
+
+[InputComboValues]
+Class="Function"
+Prototype="void InputComboValues(int panel, int control);"
+SourceLocation="c:\Users\ASUS\Documents\TUGAS ANANDA KRISNA\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DATA KAMAR\Panel Data Kamar.c:60:6"
+
+[panel_dk]
+Class="Function"
+Prototype="int panel_dk(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\ASUS\Documents\TUGAS ANANDA KRISNA\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DATA KAMAR\Panel Data Kamar.c:75:17"
+
+[panel_d]
+Class="Function"
+Prototype="int panel_d(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\ASUS\Documents\TUGAS ANANDA KRISNA\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DATA KAMAR\Panel Data Kamar.c:83:17"
+
+[picture_datakamar]
+Class="Function"
+Prototype="int picture_datakamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\ASUS\Documents\TUGAS ANANDA KRISNA\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DATA KAMAR\Panel Data Kamar.c:96:17"
+
+[Back]
+Class="Function"
+Prototype="int Back(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\ASUS\Documents\TUGAS ANANDA KRISNA\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DATA KAMAR\Panel Data Kamar.c:107:17"
+
+[Tombol_Data]
+Class="Function"
+Prototype="int Tombol_Data(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\ASUS\Documents\TUGAS ANANDA KRISNA\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DATA KAMAR\Panel Data Kamar.c:125:17"
+
+[Tombol_Tambah]
+Class="Function"
+Prototype="int Tombol_Tambah(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\ASUS\Documents\TUGAS ANANDA KRISNA\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DATA KAMAR\Panel Data Kamar.c:138:17"
+
+[ComboJenisKamar]
+Class="Function"
+Prototype="int ComboJenisKamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\ASUS\Documents\TUGAS ANANDA KRISNA\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DATA KAMAR\Panel Data Kamar.c:172:17"
+
+[Tombol_Back]
+Class="Function"
+Prototype="int Tombol_Back(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\ASUS\Documents\TUGAS ANANDA KRISNA\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DATA KAMAR\Panel Data Kamar.c:205:17"
+
