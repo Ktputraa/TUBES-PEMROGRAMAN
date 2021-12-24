@@ -1,0 +1,107 @@
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\//\\//\\//
+//=============================================================================================\\
+\\=============================================================================================//
+//|============================RESERVASI MEMPHIS VILLA========================================|\\
+\\|===========================================================================================|//																   
+//|===========================================================================================|\\
+\\|	       Tujuan Aplikasi Boking Villa ini di buat untuk  memudahkan dalam Pemesanan         |//
+//|        Villa yang mencangkup pengecekan tipe kamar, dan detail harga dari setiap          |\\
+\\|        Tipe kamar dan juga memberi bukti pembayaran yang sah kepada para pemesan          |//
+//|===========================================================================================|\\
+\\|===========================================================================================|//
+//|===========================================================================================|\\
+\\|===========================================================================================|//
+//=============================================================================================\\												
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\//\\//\\//
+
+
+//|===========================================================================================|//
+//|====================================+=Library=+============================================|//														   
+//|===========================================================================================|//
+	
+#include "nivision.h"
+#include <formatio.h>
+#include "combobox.h"
+#include <ansi_c.h>
+#include <cvirte.h>		
+#include <userint.h>
+#include "toolbox.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "Panel Utama.h"
+#include "Panel Menu.h"
+#include "Panel Data Kamar.h"
+#include "Panel Reservasi.h"
+#include "Panel Pembayaran.h"
+	
+
+//|============================================================================================|//
+//|=======================================Constants============================================|//
+//|============================================================================================|//
+//|=========================================Types==============================================|//
+//|============================================================================================|//
+//|==================================Static global variables===================================|//
+	
+static int panelHandle = 0, panelHandle_2= 0, panelHandle_3 = 0, panelHandle_4 = 0, panelHandle_5 = 0;
+void InputComboValues (int panel, int control);
+
+int j=1;
+int k=1;
+int m=1;
+int n=1;
+	  
+
+//|============================================================================================|//
+//|=======================================Static functions=====================================|//
+//|============================================================================================|//
+//|========================================Global variables====================================|//
+//|============================================================================================|//
+//|=========================================Global functions===================================|//
+//|============================================================================================|//
+
+/// HIFN The main entry-point function \\\
+
+int main (int argc, char *argv[])
+{
+	if (InitCVIRTE (0, argv, 0) == 0)
+		return -1;	/* out of memory */
+	if ((panelHandle = LoadPanel (0, "Panel Utama.uir", PANEL)) < 0)
+		return -1;
+	if ((panelHandle_2 = LoadPanel (0, "Panel Menu.uir", PANEL_2)) < 0)
+		return -1;
+	if ((panelHandle_3 = LoadPanel (0, "Panel Data Kamar.uir", PANEL_3)) < 0)
+		return -1;
+	if ((panelHandle_4 = LoadPanel (0, "Panel Reservasi.uir", PANEL_4)) < 0)
+		return -1;
+	if ((panelHandle_5 = LoadPanel (0, "Panel Pembayaran.uir", PANEL_5)) < 0)
+		return -1;
+	
+	DisplayPanel (panelHandle);
+	//FUNGSI UNTUK INPUT VALUE  PADA COMBO//
+	Combo_NewComboBox (panelHandle_4, PANEL_4_COMBO);
+	InputComboValues (panelHandle_4, PANEL_4_COMBO);
+	Combo_NewComboBox (panelHandle_3, PANEL_3_COMBO);
+	InputComboValues (panelHandle_3, PANEL_3_COMBO);
+	
+	RunUserInterface ();
+	
+	Combo_DiscardComboBox (panelHandle_4, PANEL_4_COMBO);
+	Combo_DiscardComboBox (panelHandle_3, PANEL_3_COMBO);
+	DiscardPanel (panelHandle);
+	
+	return 0;
+}
+
+
+//=============================================================================================|//
+//===================================INPUT VALUE PADA COMBO====================================|//
+//=============================================================================================|//
+
+void InputComboValues (int panel, int control)
+{
+	Combo_InsertComboItem (panel, control, -1, "STANDAR");
+	Combo_InsertComboItem (panel, control, -1, "VIP");
+	Combo_InsertComboItem (panel, control, -1, "VVIP");
+	
+}
