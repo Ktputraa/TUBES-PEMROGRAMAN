@@ -4,7 +4,7 @@
 //|============================RESERVASI MEMPHIS VILLA========================================|\\
 \\|===========================================================================================|//																   
 //|===========================================================================================|\\
-\\|	       Tujuan Aplikasi Boking Villa ini di buat untuk  memudahkan dalam Pemesanan         |//
+\\|	       Tujuan Aplikasi Boking Villa ini di buat untuk  memudahkan dalam Pemesanan     |//
 //|        Villa yang mencangkup pengecekan tipe kamar, dan detail harga dari setiap          |\\
 \\|        Tipe kamar dan juga memberi bukti pembayaran yang sah kepada para pemesan          |//
 //|===========================================================================================|\\
@@ -78,7 +78,7 @@ int main (int argc, char *argv[])
 		return -1;
 	
 	DisplayPanel (panelHandle);
-	//FUNGSI UNTUK INPUT VALUE  PADA COMBO//
+	//FUNGSI UNTUK MEMBUAT COMBO//
 	Combo_NewComboBox (panelHandle_4, PANEL_4_COMBO);
 	InputComboValues (panelHandle_4, PANEL_4_COMBO);
 	Combo_NewComboBox (panelHandle_3, PANEL_3_COMBO);
@@ -104,4 +104,93 @@ void InputComboValues (int panel, int control)
 	Combo_InsertComboItem (panel, control, -1, "VIP");
 	Combo_InsertComboItem (panel, control, -1, "VVIP");
 	
+}
+
+//Syntax CVICALLBACK berfungsi sebagai argumen kepada fungsi dan kemudian fungsi didalamnya akan dieksekusi//
+
+
+//|============================================================================================|//
+//|=========================MEMBERI TANDA SILANG DIPOJOK KANAN ATAS============================|//
+//|============================================================================================|//
+//|======================================Dibuat Oleh===========================================|//
+//|==========================I Kadek Ananda Krisna Wiralaksana=================================|//
+//|=====================================NIM 2105551051=========================================|//
+//|============================================================================================|//
+
+int CVICALLBACK panel_login (int panel, int event, void *callbackData,
+						     int eventData1, int eventData2)
+{
+	if (event == EVENT_CLOSE)
+		QuitUserInterface (0); //keluar dari panel//
+	return 0;
+}
+
+int CVICALLBACK panel_menu (int panel, int event, void *callbackData,
+						    int eventData1, int eventData2)
+{
+	if (event == EVENT_CLOSE)
+		QuitUserInterface (0); //keluar dari panel//
+	return 0;
+}
+
+int CVICALLBACK panel_dk (int panel, int event, void *callbackData,
+						  int eventData1, int eventData2)
+{
+	if (event == EVENT_CLOSE)
+		QuitUserInterface (0); //keluar dari panel//
+	return 0;
+}
+
+int CVICALLBACK panel_rs (int panel, int event, void *callbackData,
+						  int eventData1, int eventData2)
+{
+	if (event == EVENT_CLOSE)
+		QuitUserInterface (0); //keluar dari panel//
+	return 0;
+}
+
+int CVICALLBACK panel_pb (int panel, int event, void *callbackData,
+						  int eventData1, int eventData2)
+{
+	if (event == EVENT_CLOSE)
+		QuitUserInterface (0); //keluar dari panel//
+	return 0;
+}
+
+
+//|============================================================================================|//
+//|=============================MENAMPILKAN GAMBAR PADA PANEL==================================|//
+//|============================================================================================|//
+//|=====================Dibuat Oleh I Kadek Ananda Krisna Wiralaksana==========================|//
+//|====================================NIM 2105551051==========================================|//
+//|============================================================================================|//
+
+int CVICALLBACK picture_login (int panel, int control, int event,
+						 	   void *callbackData, int eventData1, int eventData2)
+{
+	return 0;
+}
+
+int CVICALLBACK picture_menu (int panel, int control, int event,
+						 	  void *callbackData, int eventData1, int eventData2)
+{
+	return 0;
+}
+
+int CVICALLBACK picture_datakamar (int panel, int control, int event,
+						       	   void *callbackData, int eventData1, int eventData2)
+{
+	return 0;
+}
+
+int CVICALLBACK picture_reservasi (int panel, int control, int event,
+						 	       void *callbackData, int eventData1, int eventData2)
+{
+	return 0;
+}
+
+int CVICALLBACK picture_pembayaran (int panel, int control, int event,
+								    void *callbackData, int eventData1, int eventData2)
+{
+	return 0;
 }
