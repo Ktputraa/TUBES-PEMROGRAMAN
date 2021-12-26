@@ -214,3 +214,123 @@ int CVICALLBACK picture_pembayaran (int panel, int control, int event,
 {
 	return 0;
 }
+
+//|============================================================================================|//
+//|=====================================PANEL UTAMA LOGIN======================================|//
+//|============================================================================================|//
+//|===============================Fungsi Dalam Panel Utama Login===============================|//
+//|===============================Dibuat Oleh I Ketut Putra Jaya===============================|//
+//|======================================NIM 2105551023========================================|//
+//|============================================================================================|//
+
+//Tombol login//
+int CVICALLBACK login (int panel, int control, int event,
+					   void *callbackData, int eventData1, int eventData2)
+{
+	char *user, *pass;
+	int length_user, length_pass;
+	
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			GetCtrlAttribute (panelHandle, PANEL_STRING, ATTR_STRING_TEXT_LENGTH,  &length_user);
+			user=malloc(sizeof(char)*(length_user+1));
+			GetCtrlAttribute (panelHandle, PANEL_STRING_2, ATTR_STRING_TEXT_LENGTH, &length_pass);
+			pass=malloc(sizeof(char)*(length_pass+1));
+			GetCtrlVal (panelHandle, PANEL_STRING, user);
+			GetCtrlVal (panelHandle, PANEL_STRING_2, pass);
+			if(strcmp(user,"memphis")==0 && strcmp(pass, "14022")==0)
+			{
+				MessagePopup ("Login Berhasil", "Selamat Datang di Memphis Villa");
+				HidePanel (panelHandle); //menyembunyikan panel//
+				DisplayPanel (panelHandle_2); //menampilkan panel//
+			}
+			else
+			{
+				MessagePopup ("Login Tidak Berhasil", "Silahkan Masukkan Username dan Password Kembali! ");
+			}
+			break;
+	}
+	return 0;
+}
+
+//Tombol Cancel//
+int CVICALLBACK cancel (int panel, int control, int event,
+						void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			QuitUserInterface (0); //keluar dari panel//
+			break;
+	}
+	return 0;
+}
+
+
+//|============================================================================================|//
+//|===================================PANEL MENU UTAMA=========================================|//
+//|============================================================================================|//
+//|=============Fungsi Dalam Panel Menu Utama Untuk Menampilkan Panel Beikutnya================|//
+//|=============================Dibuat Oleh I Ketut Putra Jaya=================================|//
+//|====================================NIM 2105551051==========================================|//
+//|============================================================================================|//
+
+//Tombol Data Kamar//
+int CVICALLBACK Tombol_DK (int panel, int control, int event,
+					       void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			HidePanel (panelHandle_2); //menyembunyikan panel//
+			DisplayPanel (panelHandle_3); //menampilkan panel//
+			RunUserInterface ();
+			break;
+	}
+	return 0;
+}
+
+//Tombol Reservasi//
+int CVICALLBACK Tombol_RS (int panel, int control, int event,
+						   void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			HidePanel (panelHandle_2); //menyembunyikan panel//
+			DisplayPanel (panelHandle_4); // menampilkan pan//
+			RunUserInterface ();
+			break;
+	}
+	return 0;
+}
+
+//Tombol Pembayaran//
+int CVICALLBACK Tombol_PB (int panel, int control, int event,
+						   void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			HidePanel (panelHandle_2); //menyembunyikan panel//
+			DisplayPanel (panelHandle_5); //menampilkan panel//
+			RunUserInterface ();
+			break;
+	}
+	return 0;
+}
+
+//Tombol Keluar//
+int CVICALLBACK Tombol_Keluar (int panel, int control, int event,
+						       void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			QuitUserInterface (0); //keluar dari panel//
+			break;
+	}
+	return 0;
+}
+
