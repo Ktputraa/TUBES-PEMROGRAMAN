@@ -42,14 +42,14 @@
 //|=========================================Types==============================================|//
 //|============================================================================================|//
 //|==================================Static global variables===================================|//
-	
+
+//Deklarasi variabel pada setiap panel//
 static int panelHandle = 0, panelHandle_2= 0, panelHandle_3 = 0, panelHandle_4 = 0, panelHandle_5 = 0;
 void InputComboValues (int panel, int control);
 
+//variabel untuk looping pada data kamar dan reservasi//
 int j=1;
-int k=1;
 int m=1;
-int n=1;
 	  
 
 //|============================================================================================|//
@@ -353,7 +353,7 @@ int CVICALLBACK Tombol_Tambah (int panel, int control, int event,
 	{
 		case EVENT_COMMIT:
 			
-		for(int i=j;i<=k;) //looping untuk melanjutkan memasukkan data yang baru ke baris tabel selanjutnya//
+		for(int i=j;i<=j;) //looping untuk melanjutkan memasukkan data yang baru ke baris tabel selanjutnya//
 		{
 			GetCtrlVal (panelHandle_3, PANEL_3_STRING, NoKamar); //untuk mendapatkan value yang akan diinput oleh user//
 			SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(1,i), NoKamar); //memasukkan value yang sudah diinput oleh user kedalam tabel//
@@ -367,7 +367,6 @@ int CVICALLBACK Tombol_Tambah (int panel, int control, int event,
 			GetCtrlVal (panelHandle_3, PANEL_3_STRING_4, HargaKamar); //untuk mendapatkan value yang akan diinput oleh user//
 			SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(4,i), HargaKamar); //memasukkan value yang sudah diinput oleh user kedalam tabel//
 			j++;
-			k++;
 			MessagePopup ("Daftar Kamar", "Data Berhasil Dimasukan!");
 			break;
 		}
@@ -565,3 +564,89 @@ int CVICALLBACK Tombol_Kembali (int panel, int control, int event,
 			break;
 	}
 	return 0;
+
+
+//|============================================================================================|//
+//|=====================================PANEL PEMBAYARAN=======================================|//
+//|============================================================================================|//
+//|===================================Fungsi Membuat Kuitansi==================================|//
+//|========================Dibuat Oleh I Kadek Ananda Krisna Wiralaksana=======================|//
+//|======================================Nim 2105551023========================================|//
+//|============================================================================================|//
+
+//Tombol Print//
+int CVICALLBACK Tombol_Print (int panel, int control, int event,
+					  		 void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			PrintPanel (panelHandle_5, "", 1, VAL_FULL_PANEL, 1);
+			break;
+	}
+	return 0;
+}
+
+
+//|============================================================================================|//
+//|======================================PANEL PEMBAYARAN======================================|//
+//|============================================================================================|//
+//|================================Fungsi Pada Panel PEMBAYARAN================================|//
+//|============================================================================================|//
+
+//Tombol Klik//
+int CVICALLBACK Tombol_Klik	(int panel, int control, int event,
+					 		 void *callbackData, int eventData1, int eventData2)
+{
+	char namapemesan[100],tpkamar[50],NoKmr[50],Fasilitas[100],hrgkamar[100],LamaInap[30];
+	int total;
+	
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_2, namapemesan); //untuk mengambil value yang akan diinput oleh user//
+			SetCtrlVal (panelHandle_5, PANEL_5_STRING, namapemesan);
+			
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_4, NoKmr); //untuk mengambil value yang akan diinput oleh user//
+			SetCtrlVal (panelHandle_5, PANEL_5_STRING_2, NoKmr);
+			
+			GetCtrlVal (panelHandle_4, PANEL_4_COMBO, tpkamar); //untuk mengambil value yang akan diinput oleh user//
+			SetCtrlVal (panelHandle_5, PANEL_5_STRING_6, tpkamar);
+			
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_5, Fasilitas); //untuk mengambil value yang akan diinput oleh user//
+			SetCtrlVal (panelHandle_5, PANEL_5_STRING_3, Fasilitas);
+			
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_3, LamaInap); //untuk mengambil value yang akan diinput oleh user//
+			SetCtrlVal (panelHandle_5, PANEL_5_STRING_7, LamaInap);
+			
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_6, hrgkamar); //untuk mengambil value yang akan diinput oleh user//
+			SetCtrlVal (panelHandle_5, PANEL_5_STRING_4, hrgkamar);
+			
+			GetCtrlVal (panelHandle_4, PANEL_4_NUMERIC, &total); //untuk mengambil value yang akan diinput oleh user//
+			SetCtrlVal (panelHandle_5, PANEL_5_NUMERIC_2, total);
+			
+			//MEMBUAT WAKTU OTOMATIS//
+			struct tm *Sys_T;
+			time_t Tval;
+			Tval = time (NULL);
+			Sys_T = localtime (&Tval);
+			SetCtrlVal (panelHandle_5, PANEL_5_STRING_9, asctime(Sys_T));
+			break;
+	}
+	return 0;
+}
+
+//Tombol Kembali//
+int CVICALLBACK Kembali (int panel, int control, int event,
+						void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			HidePanel (panelHandle_5); //menyembunyikan panel//
+			DisplayPanel (panelHandle_2); //menampilkan panel//
+			QuitUserInterface (0); //Keluar dari program//
+			break;
+	}
+	return 0;
+}
