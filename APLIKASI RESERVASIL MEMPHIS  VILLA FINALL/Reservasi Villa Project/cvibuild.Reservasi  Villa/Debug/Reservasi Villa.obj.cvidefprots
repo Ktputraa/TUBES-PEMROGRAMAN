@@ -1,0 +1,140 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:66:5"
+
+[InputComboValues]
+Class="Function"
+Prototype="void InputComboValues(int panel, int control);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:104:6"
+
+[panel_login]
+Class="Function"
+Prototype="int panel_login(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:124:17"
+
+[panel_menu]
+Class="Function"
+Prototype="int panel_menu(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:137:17"
+
+[panel_dk]
+Class="Function"
+Prototype="int panel_dk(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:150:17"
+
+[panel_rs]
+Class="Function"
+Prototype="int panel_rs(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:163:17"
+
+[panel_pb]
+Class="Function"
+Prototype="int panel_pb(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:176:17"
+
+[picture_login]
+Class="Function"
+Prototype="int picture_login(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:197:17"
+
+[picture_menu]
+Class="Function"
+Prototype="int picture_menu(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:204:17"
+
+[picture_datakamar]
+Class="Function"
+Prototype="int picture_datakamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:211:17"
+
+[picture_reservasi]
+Class="Function"
+Prototype="int picture_reservasi(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:218:17"
+
+[picture_pembayaran]
+Class="Function"
+Prototype="int picture_pembayaran(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:225:17"
+
+[login]
+Class="Function"
+Prototype="int login(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:241:17"
+
+[cancel]
+Class="Function"
+Prototype="int cancel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:273:17"
+
+[Tombol_DK]
+Class="Function"
+Prototype="int Tombol_DK(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:295:17"
+
+[Tombol_RS]
+Class="Function"
+Prototype="int Tombol_RS(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:310:17"
+
+[Tombol_PB]
+Class="Function"
+Prototype="int Tombol_PB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:325:17"
+
+[Tombol_Keluar]
+Class="Function"
+Prototype="int Tombol_Keluar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:340:17"
+
+[Tombol_Tambah]
+Class="Function"
+Prototype="int Tombol_Tambah(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:362:17"
+
+[ComboTpKamar]
+Class="Function"
+Prototype="int ComboTpKamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:403:17"
+
+[Tombol_Back]
+Class="Function"
+Prototype="int Tombol_Back(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:437:17"
+
+[Tombol_Tmbh]
+Class="Function"
+Prototype="int Tombol_Tmbh(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:461:17"
+
+[combotipekamar]
+Class="Function"
+Prototype="int combotipekamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:509:17"
+
+[Tombol_Hitung]
+Class="Function"
+Prototype="int Tombol_Hitung(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:549:17"
+
+[Tombol_Kembali]
+Class="Function"
+Prototype="int Tombol_Kembali(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:573:17"
+
+[Tombol_Print]
+Class="Function"
+Prototype="int Tombol_Print(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:597:17"
+
+[Tombol_Klik]
+Class="Function"
+Prototype="int Tombol_Klik(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:617:17"
+
+[Kembali]
+Class="Function"
+Prototype="int Kembali(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\Putrajaya\Documents\tugas\ALPROG DAN KBD (GANJIL)\Alprog Buil IT\Pemrograman\GITHUB TAHAP FIX\APLIKASI RESERVASI MEMPHIS VILLA\Reservasi Villa Project\Reservasi Villa.c:661:17"
+
