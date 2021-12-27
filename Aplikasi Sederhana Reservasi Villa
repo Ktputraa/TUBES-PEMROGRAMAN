@@ -607,16 +607,16 @@ int CVICALLBACK Tombol_Klik	(int panel, int control, int event,
 			GetCtrlVal (panelHandle_4, PANEL_4_STRING_2, namapemesan); //untuk mengambil value yang akan diinput oleh user//
 			SetCtrlVal (panelHandle_5, PANEL_5_STRING, namapemesan);
 			
-			GetCtrlVal (panelHandle_4, PANEL_4_STRING_4, NoKmr); //untuk mengambil value yang akan diinput oleh user//
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_3, NoKmr); //untuk mengambil value yang akan diinput oleh user//
 			SetCtrlVal (panelHandle_5, PANEL_5_STRING_2, NoKmr);
 			
 			GetCtrlVal (panelHandle_4, PANEL_4_COMBO, tpkamar); //untuk mengambil value yang akan diinput oleh user//
 			SetCtrlVal (panelHandle_5, PANEL_5_STRING_6, tpkamar);
 			
-			GetCtrlVal (panelHandle_4, PANEL_4_STRING_5, Fasilitas); //untuk mengambil value yang akan diinput oleh user//
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_4, Fasilitas); //untuk mengambil value yang akan diinput oleh user//
 			SetCtrlVal (panelHandle_5, PANEL_5_STRING_3, Fasilitas);
 			
-			GetCtrlVal (panelHandle_4, PANEL_4_STRING_3, LamaInap); //untuk mengambil value yang akan diinput oleh user//
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_5, LamaInap); //untuk mengambil value yang akan diinput oleh user//
 			SetCtrlVal (panelHandle_5, PANEL_5_STRING_7, LamaInap);
 			
 			GetCtrlVal (panelHandle_4, PANEL_4_STRING_6, hrgkamar); //untuk mengambil value yang akan diinput oleh user//
