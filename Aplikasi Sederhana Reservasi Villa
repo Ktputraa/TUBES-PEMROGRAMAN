@@ -433,3 +433,135 @@ int CVICALLBACK Tombol_Back (int panel, int control, int event,
 	}
 	return 0;
 }
+
+//|============================================================================================|//
+//|=====================================PANEL RESERVASI========================================|//
+//|============================================================================================|//
+//|=====================Fungsi Menambah Data Ke Table Pada Panel Reservasi=====================|//
+//|===============================Dibuat Oleh I Ketut Putra Jaya===============================|//
+//|======================================Nim 2105551023========================================|//
+//|============================================================================================|//
+
+//Tombol Tambah//
+int CVICALLBACK Tombol_Tmbh (int panel, int control, int event,
+							 void *callbackData, int eventData1, int eventData2)
+{
+	char KodeBok[50],namapmsn[100],tipe[50],NoKmr[50],Fasilitas[100],Harga[100],LamaInap[30];
+	  
+	switch (event)
+	{
+		case EVENT_COMMIT:
+
+		for(int l=m;l<=m;) //looping untuk melanjutkan memasukkan data yang baru ke baris tabel selanjutnya//
+		{
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING, KodeBok); //untuk mengambil value yang akan diinput oleh user//
+			SetTableCellVal (panelHandle_4, PANEL_4_TABLE, MakePoint(1,l), KodeBok);
+			
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_2, namapmsn); //untuk mengambil value yang akan diinput oleh user//
+			SetTableCellVal (panelHandle_4, PANEL_4_TABLE, MakePoint(2,l), namapmsn); //memasukkan value yang sudah diinput oleh user kedalam tabel//
+			
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_3, NoKmr); //untuk mengambil value yang akan diinput oleh user//
+			SetTableCellVal (panelHandle_4, PANEL_4_TABLE, MakePoint(3,l), NoKmr); //memasukkan value yang sudah diinput oleh user kedalam tabel//
+			
+			GetCtrlVal (panelHandle_4, PANEL_4_COMBO, tipe); //untuk mengambil value yang akan diinput oleh user//
+			SetTableCellVal (panelHandle_4, PANEL_4_TABLE, MakePoint(4,l), tipe); //memasukkan value yang sudah diinput oleh user kedalam tabel//
+			
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_4,Fasilitas); //untuk mengambil value yang akan diinput oleh user//
+			SetTableCellVal (panelHandle_4, PANEL_4_TABLE, MakePoint(5,l), Fasilitas); //memasukkan value yang sudah diinput oleh user kedalam tabel//
+			
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_5, LamaInap); //untuk mengambil value yang akan diinput oleh user//
+			SetTableCellVal (panelHandle_4, PANEL_4_TABLE, MakePoint(6,l), LamaInap); //memasukkan value yang sudah diinput oleh user kedalam tabel//
+		
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_6, Harga); //untuk mengambil value yang akan diinput oleh user//
+			SetTableCellVal (panelHandle_4, PANEL_4_TABLE, MakePoint(7,l), Harga); //memasukkan value yang sudah diinput oleh user kedalam tabel//
+			m++; 
+			MessagePopup ("RESERVASI", "Data berhasil dimasukan!");
+			break;
+		}
+		
+	}
+	return 0;	
+}
+
+
+//|============================================================================================|//
+//|======================================PANEL RESERVASI=======================================|//
+//|============================================================================================|//
+//|================================Fungsi Pada Panel Reservasi=================================|//
+//|============================================================================================|//
+
+//combo tipe kamar pada panel reservasi//
+int CVICALLBACK combotipekamar (int panel, int control, int event,
+					  		 	void *callbackData, int eventData1, int eventData2)
+{
+	char *value, kmr[50];
+	int  length;
+	
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			GetCtrlAttribute (panel, control, ATTR_STRING_TEXT_LENGTH, &length);
+			value = (char *)malloc(length+1); //mendapatkan panjang value yang cukup//
+			StringUpperCase (value);
+			if (strcmp (value, "STANDAR") == 0)
+			{
+				GetCtrlVal (panelHandle_3, PANEL_3_STRING, kmr);//mendapatkan value yang akan di input pada panel data kamar bagian no_kamar//
+				SetCtrlVal (panelHandle_4, PANEL_4_STRING_3, kmr);
+				SetCtrlVal (panelHandle_4, PANEL_4_STRING_4, "1 Bed, TV, AC, Lemari");
+				SetCtrlVal (panelHandle_4, PANEL_4_STRING_6, "250000");
+			}
+			else if (strcmp (value, "VIP") == 0)
+			{
+				GetCtrlVal (panelHandle_3, PANEL_3_STRING, kmr);//mendapatkan value yang akan di input pada panel data kamar bagian no_kamar//
+				SetCtrlVal (panelHandle_4, PANEL_4_STRING_3, kmr);
+				SetCtrlVal (panelHandle_4, PANEL_4_STRING_4, "2 Bed, TV, AC, Lemari, Bathtub");
+				SetCtrlVal (panelHandle_4, PANEL_4_STRING_6, "350000");
+			}
+			else if (strcmp (value, "VVIP") == 0)
+			{
+				GetCtrlVal (panelHandle_3, PANEL_3_STRING, kmr);//mendapatkan value yang akan di input pada panel data kamar bagian no_kamar//
+				SetCtrlVal (panelHandle_4, PANEL_4_STRING_3, kmr);
+				SetCtrlVal (panelHandle_4, PANEL_4_STRING_4, "2 Bed + Spray Premium, TV, 2 AC, Lemari, Bathtub");
+				SetCtrlVal (panelHandle_4, PANEL_4_STRING_6, "450000");
+			}
+			
+			break;
+	}
+	return 0;
+}
+
+//Tombol Hitung//
+int CVICALLBACK Tombol_Hitung (int panel, int control, int event,
+						   	   void *callbackData, int eventData1, int eventData2)
+{
+	char a[20],b[30];
+	int nilai1,nilai2,nilai3;
+
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_5, a); //mendapatkan nilai yang diinput user//
+			GetCtrlVal (panelHandle_4, PANEL_4_STRING_6, b); //mendapatkan nilai yang diinput user//
+			nilai1 = atoi(a);//konversi nilai dari char ke int
+			nilai2 = atoi(b);//konversi nilai dari char ke int
+			nilai3 = (nilai1*nilai2);
+			
+			SetCtrlVal (panelHandle_4, PANEL_4_NUMERIC, nilai3);
+			break;
+	}
+	return 0;
+}
+
+//Tombol Kembali//
+int CVICALLBACK Tombol_Kembali (int panel, int control, int event,
+							void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			HidePanel (panelHandle_4); //menyembunyikan panel//
+			DisplayPanel (panelHandle_2); //menampilkan panel//
+			QuitUserInterface (0);
+			break;
+	}
+	return 0;
