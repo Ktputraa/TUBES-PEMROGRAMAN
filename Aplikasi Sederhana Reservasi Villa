@@ -334,3 +334,102 @@ int CVICALLBACK Tombol_Keluar (int panel, int control, int event,
 	return 0;
 }
 
+
+//|============================================================================================|//
+//|===================================PANEL DATA KAMAR=========================================|//
+//|============================================================================================|//
+//|============Fungsi Memasukkan Data Ke Dalam Tabel Pada Panel Data Kamar=====================|//
+//|===================Dibuat Oleh I Kadek Ananda Krisna Wiralaksana============================|//
+//|==================================NIM 2105551051============================================|//
+//|============================================================================================|//
+
+//Tombol Tambah//
+int CVICALLBACK Tombol_Tambah (int panel, int control, int event,
+							   void *callbackData, int eventData1, int eventData2) 
+{
+	char NoKamar[50], TipeKamar[50], Fasilitas[100], HargaKamar[100];
+	
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			
+		for(int i=j;i<=k;) //looping untuk melanjutkan memasukkan data yang baru ke baris tabel selanjutnya//
+		{
+			GetCtrlVal (panelHandle_3, PANEL_3_STRING, NoKamar); //untuk mendapatkan value yang akan diinput oleh user//
+			SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(1,i), NoKamar); //memasukkan value yang sudah diinput oleh user kedalam tabel//
+				
+			GetCtrlVal (panelHandle_3, PANEL_3_COMBO, TipeKamar); //untuk mendapatkan value yang akan diinput oleh user//
+			SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(2,i), TipeKamar); //memasukkan value yang sudah diinput oleh user kedalam tabel//
+				
+			GetCtrlVal (panelHandle_3, PANEL_3_STRING_3, Fasilitas); //untuk mendapatkan value yang akan diinput oleh user//
+			SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(3,i), Fasilitas); //memasukkan value yang sudah diinput oleh user kedalam tabel//
+				
+			GetCtrlVal (panelHandle_3, PANEL_3_STRING_4, HargaKamar); //untuk mendapatkan value yang akan diinput oleh user//
+			SetTableCellVal (panelHandle_3, PANEL_3_TABLE, MakePoint(4,i), HargaKamar); //memasukkan value yang sudah diinput oleh user kedalam tabel//
+			j++;
+			k++;
+			MessagePopup ("Daftar Kamar", "Data Berhasil Dimasukan!");
+			break;
+		}
+	}
+return 0;
+}
+
+
+//|============================================================================================|//
+//|====================================PANEL DATA KAMAR========================================|//
+//|============================================================================================|//
+//|==============================Fungsi Pada Panel Data Kamar==================================|//
+//|======================Dibuat Oleh I Kadek Ananda Krisna Wiralaksana=========================|//
+//|=====================================NIM 2105551023=========================================|//
+//|============================================================================================|//
+
+//membuat drop down list//
+//combo tipe kamar pada panel data kamar//
+int CVICALLBACK ComboTpKamar (int panel, int control, int event,
+								 void *callbackData, int eventData1, int eventData2)
+{
+	char *value;
+	int  length;
+	
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			GetCtrlAttribute (panel, control, ATTR_STRING_TEXT_LENGTH, &length);
+			value = (char *)malloc(length+1); //mendapatkan panjang value yang cukup//
+			StringUpperCase (value);
+			if (strcmp (value, "STANDAR") == 0)
+			{
+				SetCtrlVal (panelHandle_3, PANEL_3_STRING_3, "1 Bed, TV, AC, Lemari"); 
+				SetCtrlVal (panelHandle_3, PANEL_3_STRING_4, "Rp. 250000");
+			}
+			else if (strcmp (value, "VIP") == 0)
+			{
+				SetCtrlVal (panelHandle_3, PANEL_3_STRING_3, "2 Bed, TV, AC, Lemari, Bathtub");
+				SetCtrlVal (panelHandle_3, PANEL_3_STRING_4, "Rp. 350000");
+			}
+			else if (strcmp (value, "VVIP") == 0)
+			{
+				SetCtrlVal (panelHandle_3, PANEL_3_STRING_3, "2 Bed + Spray Premium, TV, 2 AC, Lemari, Bathtub");
+				SetCtrlVal (panelHandle_3, PANEL_3_STRING_4, "Rp. 450000");
+			}
+
+			break;		
+	}
+	return 0;
+}
+
+//Tombol Kembali//
+int CVICALLBACK Tombol_Back (int panel, int control, int event,
+						 void *callbackData, int eventData1, int eventData2)
+{
+	switch (event)
+	{
+		case EVENT_COMMIT:
+			HidePanel (panelHandle_3); //menyembunyikan panel//
+			DisplayPanel (panelHandle_2); //menampilkan panel//
+			QuitUserInterface (0);
+			break;
+	}
+	return 0;
+}
