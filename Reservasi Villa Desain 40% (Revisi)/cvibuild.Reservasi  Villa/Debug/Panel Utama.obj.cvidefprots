@@ -1,0 +1,25 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\TUGAS BESAR PEMROGRAMAN\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\Reservasi Villa\Panel Utama.c:7:5"
+
+[panel_login]
+Class="Function"
+Prototype="int panel_login(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\TUGAS BESAR PEMROGRAMAN\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\Reservasi Villa\Panel Utama.c:20:17"
+
+[cancel]
+Class="Function"
+Prototype="int cancel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\TUGAS BESAR PEMROGRAMAN\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\Reservasi Villa\Panel Utama.c:38:17"
+
+[login]
+Class="Function"
+Prototype="int login(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\TUGAS BESAR PEMROGRAMAN\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\Reservasi Villa\Panel Utama.c:50:17"
+
+[picture_login]
+Class="Function"
+Prototype="int picture_login(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\TUGAS BESAR PEMROGRAMAN\TUGAS BESAR PEMROGRAMAN\RESERVASI MEMPHIS VILLA (FINAL)\Reservasi Villa\Panel Utama.c:62:17"
+
