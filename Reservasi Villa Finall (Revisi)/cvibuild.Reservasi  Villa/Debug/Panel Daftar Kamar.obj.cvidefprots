@@ -1,0 +1,35 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\Reservasi Villa Project\Panel Daftar Kamar.c:8:5"
+
+[panel_dk]
+Class="Function"
+Prototype="int panel_dk(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\Reservasi Villa Project\Panel Daftar Kamar.c:22:17"
+
+[Tombol_Back]
+Class="Function"
+Prototype="int Tombol_Back(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\Reservasi Villa Project\Panel Daftar Kamar.c:40:17"
+
+[Tombol_Tambah]
+Class="Function"
+Prototype="int Tombol_Tambah(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\Reservasi Villa Project\Panel Daftar Kamar.c:52:17"
+
+[picture_daftarkamar]
+Class="Function"
+Prototype="int picture_daftarkamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\Reservasi Villa Project\Panel Daftar Kamar.c:64:17"
+
+[ComboTpKamar]
+Class="Function"
+Prototype="int ComboTpKamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\Reservasi Villa Project\Panel Daftar Kamar.c:70:17"
+
+[ComboTpKmr]
+Class="Function"
+Prototype="int ComboTpKmr(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\Reservasi Villa Project\Panel Daftar Kamar.c:82:17"
+
