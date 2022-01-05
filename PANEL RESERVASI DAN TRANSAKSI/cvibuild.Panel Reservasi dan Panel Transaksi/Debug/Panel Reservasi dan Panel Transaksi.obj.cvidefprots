@@ -1,0 +1,65 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:30:5"
+
+[InputComboValues]
+Class="Function"
+Prototype="void InputComboValues(int panel, int control);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:57:6"
+
+[panel_rs]
+Class="Function"
+Prototype="int panel_rs(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:73:17"
+
+[panel_tr]
+Class="Function"
+Prototype="int panel_tr(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:85:17"
+
+[picture_reservasi]
+Class="Function"
+Prototype="int picture_reservasi(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:102:17"
+
+[picture_transaksi]
+Class="Function"
+Prototype="int picture_transaksi(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:107:17"
+
+[Tombol_Tmbh]
+Class="Function"
+Prototype="int Tombol_Tmbh(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:120:17"
+
+[combotipekamar]
+Class="Function"
+Prototype="int combotipekamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:176:17"
+
+[Tombol_Hitung]
+Class="Function"
+Prototype="int Tombol_Hitung(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:272:17"
+
+[Tombol_Kembali]
+Class="Function"
+Prototype="int Tombol_Kembali(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:295:17"
+
+[Tombol_Print]
+Class="Function"
+Prototype="int Tombol_Print(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:316:17"
+
+[Tombol_Klik]
+Class="Function"
+Prototype="int Tombol_Klik(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:336:17"
+
+[Kembali]
+Class="Function"
+Prototype="int Kembali(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL RESERVASI DAN TRANSAKSI\Panel Reservasi dan Panel Transaksi.c:375:17"
+
