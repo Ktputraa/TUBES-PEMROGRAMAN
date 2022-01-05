@@ -1,0 +1,35 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DAFTAR KAMAR\Panel Daftar Kamar.c:29:5"
+
+[InputComboValues]
+Class="Function"
+Prototype="void InputComboValues(int panel, int control);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DAFTAR KAMAR\Panel Daftar Kamar.c:54:6"
+
+[panel_dk]
+Class="Function"
+Prototype="int panel_dk(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DAFTAR KAMAR\Panel Daftar Kamar.c:69:17"
+
+[picture_daftarkamar]
+Class="Function"
+Prototype="int picture_daftarkamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DAFTAR KAMAR\Panel Daftar Kamar.c:86:17"
+
+[Tombol_Tambah]
+Class="Function"
+Prototype="int Tombol_Tambah(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DAFTAR KAMAR\Panel Daftar Kamar.c:99:17"
+
+[ComboTpKamar]
+Class="Function"
+Prototype="int ComboTpKamar(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DAFTAR KAMAR\Panel Daftar Kamar.c:136:17"
+
+[Tombol_Back]
+Class="Function"
+Prototype="int Tombol_Back(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\hp\Documents\Absensi Pemrograman\RESERVASI MEMPHIS VILLA (FINAL)\PANEL DAFTAR KAMAR\Panel Daftar Kamar.c:183:17"
+
